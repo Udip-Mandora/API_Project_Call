@@ -1,0 +1,19 @@
+block variables 
+doctype html 
+html 
+  head
+    meta(charset="utf-8")
+    title Space Exploration
+    block scripts 
+      link(rel="stylesheet", type="text/css", href="/style.css")
+      script(src="https://widgets.astronomyapi.com/cdn/astronomy-api-widgets.js")
+  body
+    header#header 
+      .header-content   
+        h2#site-name 
+          a(href="/") Space Exploration
+        h3 Get Photos from Space
+    main#main 
+      block main-content 
+    footer#footer 
+      p &copy; Copyright  Udip Mandora, 2023.

@@ -1,0 +1,72 @@
+extends layout
+
+block main-content
+    h2.road-header Get The Tracking Information of Elon Musk's Tesla Roadster which is roaming in space right now 
+    img#road-image(src="./Images/roadster.jpg")
+    p.road-hero Below, there is a table displaying some key information regarding the Tesla Roadster in space going towards MARS
+    table
+      tr
+        th INPUT 
+        th OUTPUT
+      tr
+        td Name
+        td #{data.name}
+      tr
+        td Launch Date UTC
+        td #{data.launch_date_utc}
+      tr
+        td Launch Date Unix
+        td #{data.launch_date_unix}
+      tr
+        td Launch Mass Kg
+        td #{data.launch_mass_kg}
+      tr
+        td Launch Mass Lbs
+        td #{data.launch_mass_lbs}
+      tr
+        td Norad ID
+        td #{data.norad_id}
+      tr
+        td Epoch Id 
+        td #{data.epoch_jd}
+      tr
+        td Orbit Type
+        td #{data.orbit_type}
+      tr
+        td Eccentricity
+        td #{data.eccentricity}
+      tr
+        td Inclination
+        td #{data.inclination}
+      tr
+        td Longitude
+        td #{data.longitude}
+      tr
+        td Period Days
+        td #{data.period_days}
+      tr
+        td Speed Kph
+        td #{data.speed_kph}
+      tr
+        td Speed Mph
+        td #{data.speed_mph}
+      tr
+        td Earth Distance KM
+        td #{data.earth_distance_km}
+      tr
+        td Earth Distance MI
+        td #{data.earth_distance_mi}
+      tr
+        td MARS Distance KM
+        td #{data.mars_distance_km}
+      tr
+        td MARS Distance MI
+        td #{data.mars_distance_mi}
+    h3.road-description Here, We have description regarding the vehicle itself which was sent to space 
+    p.road-detail #{data.details}
+    h4.image-info Now, we will see some image of Tesla Roadster
+    .images-roadster
+      img(src="https://farm5.staticflickr.com/4615/40143096241_11128929df_b.jpg")
+      img(src="https://farm5.staticflickr.com/4702/40110298232_91b32d0cc0_b.jpg")
+      img(src="https://farm5.staticflickr.com/4676/40110297852_5e794b3258_b.jpg")
+      img(src="https://farm5.staticflickr.com/4745/40110304192_6e3e9a7a1b_b.jpg") 

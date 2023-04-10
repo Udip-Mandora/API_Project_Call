@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Stardos+Stencil:wght@400;700&display=swap');
+
+body {
+    font-family: 'Orbitron';
+    padding: 1em;
+}
+
+img {
+    width: 550px;
+    height: 500px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkslategrey;
+    padding: 5px 5px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    gap: 2em;
+    list-style-type: none;
+}
+
+li {
+    text-decoration: none;
+
+}
+
+.hero {
+    text-align: center;
+    margin-top: 1.5em;
+    color: lightsalmon;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    gap: 60em;
+}
+
+.page-title {
+    padding-top: 2px;
+}
+
+.content {
+    text-align: center;
+    margin-top: 4em;
+    font-weight: 600;
+}
+
+.rovers {
+    text-align: center;
+    padding-top: 1em;
+}
+
+.rovers li {
+    font-weight: 800;
+}
+
+#header {
+    margin-top: 1em;
+    width: 100%;
+}
+
+.camera-info {
+    text-align: center;
+    margin-top: 3.5em;
+    font-weight: 700;
+}
+
+.camera {
+    text-align: center;
+    margin-top: 2.5em;
+    border: 1px solid black;
+    padding: 10px;
+    width: 70%;
+    margin-left: 15em;
+}
+
+.camera li {
+    font-weight: bolder;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 2em;
+}
+
+table {
+    border-spacing: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    /* border-collapse: collapse; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* padding: 10px; */
+}
+
+th {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+tr,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: bisque;
+}
+
+tr:hover {
+    background-color: #66ccff;
+}
+
+.road-header {
+    text-align: center;
+}
+
+#road-image {
+    width: 100%;
+}
+
+.road-hero {
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.road-description {
+    margin-top: 3em;
+    text-align: center;
+}
+
+.road-detail {
+    align-items: center;
+    font-weight: bolder;
+    text-align: justify;
+    color: burlywood;
+}
+
+.page-title {
+    text-align: center;
+    color: lightsalmon;
+}
+
+.about-roadster {
+    margin-top: 2em;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.info-road {
+    margin-top: 2em;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.images-roadster img {
+    padding: 20px;
+    width: 60%;
+}
+
+.image-info {
+    text-align: center;
+    font-size: large;
+    color: darkblue;
+}
+
+#footer p {
+    font-weight: bolder;
+    font-size: larger;
+}

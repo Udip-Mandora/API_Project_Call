@@ -1,0 +1,8 @@
+extends layout
+
+block main-content
+    h1.page-title MARS IMAGES FROM MAHLI LENS HAND IMAGES CAMERA
+    ul
+      each p in photo
+        li
+          img(src=p.img_src)

@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title Star Chart
+  body
+    h1 Star Chart
+    table
+      tr
+        th Name</th>
+        th Constellation</th>
+        th Magnitude</th>
+      each star in data.stars
+        tr
+          td= star.name
+          td= star.constellation
+          td= star.magnitude
